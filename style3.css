@@ -1,0 +1,91 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    background-color: #f8f3ec;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    width:100vw;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    /* justify-content: center;
+    align-items: center; */
+}
+nav{
+    padding:20px 10%;
+    height:15vh;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    margin-right: 5%;
+    font-weight: 600;
+}
+
+nav ul li img{
+    width:100px;
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 40px;
+}
+.left-section{
+    width:50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    margin: 40px;
+
+}
+.left-section h1{
+    font-size:60px;
+}
+.left-section p{
+    margin:5% 0;
+ 
+}
+.left-section button{
+    padding: 15px 20px;
+    font-size:18px;
+    color: white;
+    font-weight:600;
+    border:none;
+    background-color: green;
+    border-radius: 10px;
+}
+.left-section button:hover{
+    color:green;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.right-section{
+    width:50%;
+    padding:7%;
+  
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+
+}
+.right-section div img{
+    width:30%;
+}
+.right-section div img:first-child{
+    margin-right: 20px;
+}
+.right-section div{
+    margin-bottom:20px;
+}
+.right-section > img{
+    width:64%;
+
+}
